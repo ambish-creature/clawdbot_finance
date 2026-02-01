@@ -1,0 +1,9 @@
+Matplotlib is building the font cache; this may take a moment.
+Traceback (most recent call last):
+  File "/home/toto/clawd/coding/finance_coding/portfolio_tracker/main.py", line 144, in <module>
+    updated_df = update_portfolio(INVESTMENT_AMOUNT, ALLOCATION, current_prices)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/toto/clawd/coding/finance_coding/portfolio_tracker/main.py", line 91, in update_portfolio
+    for ticker in tickers:
+                  ^^^^^^^
+NameError: name 'tickers' is not defined. Did you mean: 'ticker'?
